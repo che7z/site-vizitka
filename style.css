@@ -84,6 +84,10 @@
     color:#1a1a1a;
     font-weight: bold;
     border-radius: 6px;
+    transition: all 0.3s linear 0s;
+}
+.join:hover {
+    background-color: rgb(247, 178, 52);
 }
 .header-info-block {
     display: flex;
@@ -150,6 +154,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    transition: all 0.3s linear 0s;
+}
+.play-btn:hover {
+    background-color: rgb(35, 9, 153);
 }
 .about-title {
     font-size: 20px;

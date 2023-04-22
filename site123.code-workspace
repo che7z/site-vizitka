@@ -1,10 +1,8 @@
 {
 	"folders": [
 		{
+			"name": "site123",
 			"path": "."
-		},
-		{
-			"path": "../../img"
 		}
 	],
 	"settings": {}

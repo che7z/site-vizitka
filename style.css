@@ -1,3 +1,5 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -126,13 +128,13 @@
     margin-bottom: 13px;
 }
 .about-desc {
-    color: white;
+    color: #D1D1D1;
     max-width: 240px;
     font-size: 14px;
     line-height: 1.8;
 }
 .audio-block {
-    background-color: black;
+    background-color: #302f2f;
     display: flex;
     margin-top: 61px;
 }
@@ -143,21 +145,6 @@
     flex: 1;
     position: relative;
     padding: 0 34px;
-}
-.play-btn {
-    display: flex;
-    background-color: blue;
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    transition: all 0.3s linear 0s;
-}
-.play-btn:hover {
-    background-color: rgb(35, 9, 153);
 }
 .about-title {
     font-size: 20px;
@@ -175,4 +162,37 @@
     letter-spacing: 1.5px;
     text-align: center;
     display: block;
+}
+.audio-holder {
+    width: 540px;
+}
+.audio-detail {
+    flex: 1;
+}
+.control {
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.control i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer
+}
+.audio-author {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.time {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }

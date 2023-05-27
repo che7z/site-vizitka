@@ -46,6 +46,10 @@
     text-transform:uppercase;
     letter-spacing: 2px;
     font-size: 13px;
+    transition: 0.2s all 0s ease;
+}
+.nav-links a:hover {
+   color: rgb(199, 199, 199);
 }
 .header-title {
     margin-top: 110px;
@@ -182,6 +186,7 @@
     align-items: center;
     font-size: 1.25rem;
     background-color: blue;
+    border-radius: 5px;
     color: white;
     cursor: pointer
 }

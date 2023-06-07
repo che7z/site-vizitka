@@ -291,6 +291,9 @@
    border-bottom: 1px solid #939495;
    padding: 30px 0;
 }
+.footer-row:last-child {
+   border: none;
+}
 .left-block {
    display: flex;
    align-items: center;
